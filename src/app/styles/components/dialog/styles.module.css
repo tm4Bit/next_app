@@ -1,0 +1,38 @@
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.radioRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0;
+  border-bottom: 1px solid #dddddd;
+}
+
+.list {
+  
+}
+
+.row label {
+  margin: 10px 0 5px;
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+.row input {
+  height: 40px;
+  padding: 8px 10px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  margin: 7px 0;
+}
+
+.row select {
+  height: 40px;
+  padding: 8px 10px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  margin: 7px 0;
+}
